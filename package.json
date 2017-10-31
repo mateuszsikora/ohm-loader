@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mateuszsikora/ohm-loader/issues"
   },
-  "homepage": "https://github.com/mateuszsikora/ohm-loader#readme"
+  "homepage": "https://github.com/mateuszsikora/ohm-loader#readme",
+  "dependencies": {
+    "ohm-js": "^0.13.1"
+  }
 }
