@@ -1,0 +1,6 @@
+*.log
+example/
+.eslintrc.yml
+.gitignore
+.npmignore
+.travis.yml
