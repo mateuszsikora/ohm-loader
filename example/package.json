@@ -10,7 +10,7 @@
   "author": "mateuszsikora",
   "license": "MIT",
   "dependencies": {
-    "ohm-loader": "^0.0.1",
+    "ohm-loader": "^0.0.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.3"
   }

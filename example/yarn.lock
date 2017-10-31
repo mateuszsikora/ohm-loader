@@ -1871,9 +1871,9 @@ ohm-js@^0.13.1:
     is-buffer "^1.1.4"
     util-extend "^1.0.3"
 
-ohm-loader@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/ohm-loader/-/ohm-loader-0.0.1.tgz#4a944b9aa6ff3fd9e5dfe34942b6324a8973fc63"
+ohm-loader@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ohm-loader/-/ohm-loader-0.0.2.tgz#0ad4fdc6281c3dd4a4d98606e2b69374c8f36612"
   dependencies:
     ohm-js "^0.13.1"
 
