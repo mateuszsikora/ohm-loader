@@ -11,4 +11,4 @@ var someInput =
 
 grammar.match(someInput);
 
-container.innerText = 'grammar match ' + match.succeeded() ? 'succeeded' : 'failed';
+container.innerText = 'grammar match ' + (grammar.match(someInput).succeeded() ? 'succeeded' : 'failed');
