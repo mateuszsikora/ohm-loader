@@ -1,5 +1,4 @@
 const webpack = require("webpack");
-const path = require('path');
 
 module.exports = {
   entry: './index.js',
@@ -11,12 +10,5 @@ module.exports = {
       test: /\.ohm$/,
       loader: 'ohm-loader'
     }]
-  },
-  resolveLoader: {
-    alias: {
-      "ohm-loader": path.join(__dirname, '../lib/index.js')
-    }
-  },
+  }
 };
-
-
