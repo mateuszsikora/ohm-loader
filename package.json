@@ -1,0 +1,24 @@
+{
+  "name": "ohm-loader",
+  "version": "0.0.1",
+  "description": "Ohm loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszsikora/ohm-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "ohm",
+    "loader"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mateuszsikora/ohm-loader/issues"
+  },
+  "homepage": "https://github.com/mateuszsikora/ohm-loader#readme"
+}
