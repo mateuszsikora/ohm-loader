@@ -1,6 +1,6 @@
-const ohm = require('ohm-js');
+import ohm from 'ohm-js';
 
-module.exports = function (rawGrammar) {
+export default function (rawGrammar) {
   const grammar = ohm.grammar(rawGrammar);
-  return 'module.exports = require(\'ohm-js\').makeRecipe(' + grammar.toRecipe() + ');';
+  return `module.exports = require('ohm-js').makeRecipe(${grammar.toRecipe()});`;
 };

@@ -14,7 +14,7 @@ module.exports = {
   },
   resolveLoader: {
     alias: {
-      "ohm-loader": path.join(__dirname, '../src/index.js')
+      "ohm-loader": path.join(__dirname, '../lib/index.js')
     }
   },
 };
