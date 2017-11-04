@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/mateuszsikora/ohm-loader#readme",
   "dependencies": {
-    "ohm-js": "^0.13.1"
+    "ohm-js": "^0.14.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

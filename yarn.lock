@@ -1566,9 +1566,9 @@ object.omit@^2.0.0:
     for-own "^0.1.4"
     is-extendable "^0.1.1"
 
-ohm-js@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/ohm-js/-/ohm-js-0.13.1.tgz#6c91f71516117e9443fe14b17acdcf0a926373f0"
+ohm-js@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/ohm-js/-/ohm-js-0.14.0.tgz#ef5dbe33d493407916f8c4c12115161872c2bc0d"
   dependencies:
     es6-symbol "^3.1.0"
     inherits "^2.0.3"
