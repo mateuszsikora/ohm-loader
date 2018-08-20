@@ -5,7 +5,7 @@ const createGrammars = (ohm, recipes) => {
   for (let recipeKey in recipes) {
     recipes[recipeKey] = ohm.makeRecipe(recipes[recipeKey]);
   }
-  if (Object.keys(recipes).length == 1) {
+  if (Object.keys(recipes).length === 1) {
     return Object.values(recipes)[0];
   }
   return recipes;
