@@ -1,0 +1,15 @@
+CSV1 {
+  csv = row (eol ~end row)* eol?
+  row = col ("," col)*
+  col = colChar*
+  colChar = ~(eol | ",") any
+  eol = "\r"? "\n"
+}
+
+CSV2 {
+  csv = row (eol ~end row)* eol?
+  row = col ("," col)*
+  col = colChar*
+  colChar = ~(eol | ",") any
+  eol = "\r"? "\n"
+}
