@@ -3,8 +3,12 @@ import ohm from 'ohm-js';
 import loader from '../src';
 
 const getExpectedOutput = (input) => {
-  const grammar = ohm.grammar(input);
-  return `module.exports = require('ohm-js').makeRecipe(${grammar.toRecipe()});`;
+  const namespace = ohm.grammars(input);
+  for (let grammarName in namespace) {
+    namespace[grammarName] = namespace[grammarName].toRecipe()
+  }
+
+  return `module.exports = (${loader.__get__('createGrammars')})(require('ohm-js'), ${JSON.stringify(namespace)});`;
 };
 
 describe('loader tests', () => {

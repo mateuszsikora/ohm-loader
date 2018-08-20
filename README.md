@@ -28,3 +28,10 @@
 import grammar from 'file.ohm'
 grammar.match(...);
 ```
+
+or if the file contains more than one grammar
+
+```javascript
+import {CSV, Json} from 'file.ohm'
+CSV.match(...);
+```
