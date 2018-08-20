@@ -1,6 +1,6 @@
 {
   "name": "ohm-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ohm loader for webpack",
   "main": "lib/index.js",
   "scripts": {
